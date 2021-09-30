@@ -4,6 +4,17 @@
 
 <script lang="ts">
 	import Counter from '$lib/Counter.svelte';
+	import {
+		Grid,
+		Row,
+		Column,
+		Button,
+		Tabs,
+		TabContent,
+		Tab,
+		Breadcrumb,
+		BreadcrumbItem
+	} from 'carbon-components-svelte';
 </script>
 
 <svelte:head>
@@ -21,6 +32,7 @@
 
 		to your new<br />SvelteKit app
 	</h1>
+	<Button>Learn More</Button>
 
 	<h2>
 		try editing <strong>src/routes/index.svelte</strong>
